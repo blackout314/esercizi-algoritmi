@@ -4,7 +4,7 @@ module("tests", {
 	teardown: function () {
 	}
 });
-/*
+
 test('function exist', function() {
     ok( typeof sort === "function", "la funzione non esiste" );
 });
@@ -23,7 +23,6 @@ test('function need right var', function() {
     ok( sort(c) === false, "ho passato un numero");
     ok( sort(d) === false, "ho passato un oggetto");
 });
-*/
 
 test('try to sort', function() {
     var example = [45, 56, 21, 33, 6, 9],
